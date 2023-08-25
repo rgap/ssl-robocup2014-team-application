@@ -1,0 +1,130 @@
+\hypertarget{referee_8pb_8cc}{\section{3rdparty/sllreferee/referee.pb.\-cc File Reference}
+\label{referee_8pb_8cc}\index{3rdparty/sllreferee/referee.\-pb.\-cc@{3rdparty/sllreferee/referee.\-pb.\-cc}}
+}
+{\ttfamily \#include \char`\"{}referee.\-pb.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$algorithm$>$}\\*
+{\ttfamily \#include $<$google/protobuf/stubs/common.\-h$>$}\\*
+{\ttfamily \#include $<$google/protobuf/stubs/once.\-h$>$}\\*
+{\ttfamily \#include $<$google/protobuf/io/coded\-\_\-stream.\-h$>$}\\*
+{\ttfamily \#include $<$google/protobuf/wire\-\_\-format\-\_\-lite\-\_\-inl.\-h$>$}\\*
+{\ttfamily \#include $<$google/protobuf/descriptor.\-h$>$}\\*
+{\ttfamily \#include $<$google/protobuf/generated\-\_\-message\-\_\-reflection.\-h$>$}\\*
+{\ttfamily \#include $<$google/protobuf/reflection\-\_\-ops.\-h$>$}\\*
+{\ttfamily \#include $<$google/protobuf/wire\-\_\-format.\-h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_static_descriptor_initializer__referee__2eproto}{Static\-Descriptor\-Initializer\-\_\-referee\-\_\-2eproto}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{referee_8pb_8cc_a020e0a0bb943c4473eac722b585472ea}{I\-N\-T\-E\-R\-N\-A\-L\-\_\-\-S\-U\-P\-P\-R\-E\-S\-S\-\_\-\-P\-R\-O\-T\-O\-B\-U\-F\-\_\-\-F\-I\-E\-L\-D\-\_\-\-D\-E\-P\-R\-E\-C\-A\-T\-I\-O\-N}
+\item 
+\#define \hyperlink{referee_8pb_8cc_a4c80c2bbfbdfa57f53e1537bbb6567bb}{D\-O\-\_\-}(E\-X\-P\-R\-E\-S\-S\-I\-O\-N)~if (!(E\-X\-P\-R\-E\-S\-S\-I\-O\-N)) return false
+\item 
+\#define \hyperlink{referee_8pb_8cc_a4c80c2bbfbdfa57f53e1537bbb6567bb}{D\-O\-\_\-}(E\-X\-P\-R\-E\-S\-S\-I\-O\-N)~if (!(E\-X\-P\-R\-E\-S\-S\-I\-O\-N)) return false
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{referee_8pb_8cc_a0625f3a9e112e1c97492fb70ed4b2528}{protobuf\-\_\-\-Assign\-Desc\-\_\-referee\-\_\-2eproto} ()
+\item 
+void \hyperlink{referee_8pb_8cc_a829b15253788b95c3a0ff8c4358647d0}{protobuf\-\_\-\-Shutdown\-File\-\_\-referee\-\_\-2eproto} ()
+\item 
+void \hyperlink{referee_8pb_8cc_ac6da2c479aea3c420dd2227d81752594}{protobuf\-\_\-\-Add\-Desc\-\_\-referee\-\_\-2eproto} ()
+\item 
+const \\*
+\-::google\-::protobuf\-::\-Enum\-Descriptor $\ast$ \hyperlink{referee_8pb_8cc_a413e2abe4eaa0da7ebe05077d282452c}{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-descriptor} ()
+\item 
+bool \hyperlink{referee_8pb_8cc_a5b8011b6e3bf7c1d183f6178c7204e2c}{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-\-Is\-Valid} (int value)
+\item 
+const \\*
+\-::google\-::protobuf\-::\-Enum\-Descriptor $\ast$ \hyperlink{referee_8pb_8cc_a2cb8f1955e0078ee01d02e8f98b712b9}{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-descriptor} ()
+\item 
+bool \hyperlink{referee_8pb_8cc_ae5457b0b89368abea433bb2f18c899ae}{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-\-Is\-Valid} (int value)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+struct \\*
+\hyperlink{struct_static_descriptor_initializer__referee__2eproto}{Static\-Descriptor\-Initializer\-\_\-referee\-\_\-2eproto} \hyperlink{referee_8pb_8cc_ae6791a75df2cbfde331377038a262123}{static\-\_\-descriptor\-\_\-initializer\-\_\-referee\-\_\-2eproto\-\_\-}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{referee_8pb_8cc_a4c80c2bbfbdfa57f53e1537bbb6567bb}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!D\-O\-\_\-@{D\-O\-\_\-}}
+\index{D\-O\-\_\-@{D\-O\-\_\-}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{D\-O\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-O\-\_\-(
+\begin{DoxyParamCaption}
+\item[{}]{E\-X\-P\-R\-E\-S\-S\-I\-O\-N}
+\end{DoxyParamCaption}
+)~if (!(E\-X\-P\-R\-E\-S\-S\-I\-O\-N)) return false}}\label{referee_8pb_8cc_a4c80c2bbfbdfa57f53e1537bbb6567bb}
+\hypertarget{referee_8pb_8cc_a4c80c2bbfbdfa57f53e1537bbb6567bb}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!D\-O\-\_\-@{D\-O\-\_\-}}
+\index{D\-O\-\_\-@{D\-O\-\_\-}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{D\-O\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-O\-\_\-(
+\begin{DoxyParamCaption}
+\item[{}]{E\-X\-P\-R\-E\-S\-S\-I\-O\-N}
+\end{DoxyParamCaption}
+)~if (!(E\-X\-P\-R\-E\-S\-S\-I\-O\-N)) return false}}\label{referee_8pb_8cc_a4c80c2bbfbdfa57f53e1537bbb6567bb}
+\hypertarget{referee_8pb_8cc_a020e0a0bb943c4473eac722b585472ea}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!I\-N\-T\-E\-R\-N\-A\-L\-\_\-\-S\-U\-P\-P\-R\-E\-S\-S\-\_\-\-P\-R\-O\-T\-O\-B\-U\-F\-\_\-\-F\-I\-E\-L\-D\-\_\-\-D\-E\-P\-R\-E\-C\-A\-T\-I\-O\-N@{I\-N\-T\-E\-R\-N\-A\-L\-\_\-\-S\-U\-P\-P\-R\-E\-S\-S\-\_\-\-P\-R\-O\-T\-O\-B\-U\-F\-\_\-\-F\-I\-E\-L\-D\-\_\-\-D\-E\-P\-R\-E\-C\-A\-T\-I\-O\-N}}
+\index{I\-N\-T\-E\-R\-N\-A\-L\-\_\-\-S\-U\-P\-P\-R\-E\-S\-S\-\_\-\-P\-R\-O\-T\-O\-B\-U\-F\-\_\-\-F\-I\-E\-L\-D\-\_\-\-D\-E\-P\-R\-E\-C\-A\-T\-I\-O\-N@{I\-N\-T\-E\-R\-N\-A\-L\-\_\-\-S\-U\-P\-P\-R\-E\-S\-S\-\_\-\-P\-R\-O\-T\-O\-B\-U\-F\-\_\-\-F\-I\-E\-L\-D\-\_\-\-D\-E\-P\-R\-E\-C\-A\-T\-I\-O\-N}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{I\-N\-T\-E\-R\-N\-A\-L\-\_\-\-S\-U\-P\-P\-R\-E\-S\-S\-\_\-\-P\-R\-O\-T\-O\-B\-U\-F\-\_\-\-F\-I\-E\-L\-D\-\_\-\-D\-E\-P\-R\-E\-C\-A\-T\-I\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-N\-T\-E\-R\-N\-A\-L\-\_\-\-S\-U\-P\-P\-R\-E\-S\-S\-\_\-\-P\-R\-O\-T\-O\-B\-U\-F\-\_\-\-F\-I\-E\-L\-D\-\_\-\-D\-E\-P\-R\-E\-C\-A\-T\-I\-O\-N}}\label{referee_8pb_8cc_a020e0a0bb943c4473eac722b585472ea}
+
+
+\subsection{Function Documentation}
+\hypertarget{referee_8pb_8cc_ac6da2c479aea3c420dd2227d81752594}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!protobuf\-\_\-\-Add\-Desc\-\_\-referee\-\_\-2eproto@{protobuf\-\_\-\-Add\-Desc\-\_\-referee\-\_\-2eproto}}
+\index{protobuf\-\_\-\-Add\-Desc\-\_\-referee\-\_\-2eproto@{protobuf\-\_\-\-Add\-Desc\-\_\-referee\-\_\-2eproto}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{protobuf\-\_\-\-Add\-Desc\-\_\-referee\-\_\-2eproto}]{\setlength{\rightskip}{0pt plus 5cm}void protobuf\-\_\-\-Add\-Desc\-\_\-referee\-\_\-2eproto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{referee_8pb_8cc_ac6da2c479aea3c420dd2227d81752594}
+\hypertarget{referee_8pb_8cc_a0625f3a9e112e1c97492fb70ed4b2528}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!protobuf\-\_\-\-Assign\-Desc\-\_\-referee\-\_\-2eproto@{protobuf\-\_\-\-Assign\-Desc\-\_\-referee\-\_\-2eproto}}
+\index{protobuf\-\_\-\-Assign\-Desc\-\_\-referee\-\_\-2eproto@{protobuf\-\_\-\-Assign\-Desc\-\_\-referee\-\_\-2eproto}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{protobuf\-\_\-\-Assign\-Desc\-\_\-referee\-\_\-2eproto}]{\setlength{\rightskip}{0pt plus 5cm}void protobuf\-\_\-\-Assign\-Desc\-\_\-referee\-\_\-2eproto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{referee_8pb_8cc_a0625f3a9e112e1c97492fb70ed4b2528}
+\hypertarget{referee_8pb_8cc_a829b15253788b95c3a0ff8c4358647d0}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!protobuf\-\_\-\-Shutdown\-File\-\_\-referee\-\_\-2eproto@{protobuf\-\_\-\-Shutdown\-File\-\_\-referee\-\_\-2eproto}}
+\index{protobuf\-\_\-\-Shutdown\-File\-\_\-referee\-\_\-2eproto@{protobuf\-\_\-\-Shutdown\-File\-\_\-referee\-\_\-2eproto}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{protobuf\-\_\-\-Shutdown\-File\-\_\-referee\-\_\-2eproto}]{\setlength{\rightskip}{0pt plus 5cm}void protobuf\-\_\-\-Shutdown\-File\-\_\-referee\-\_\-2eproto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{referee_8pb_8cc_a829b15253788b95c3a0ff8c4358647d0}
+\hypertarget{referee_8pb_8cc_a2cb8f1955e0078ee01d02e8f98b712b9}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-descriptor@{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-descriptor}}
+\index{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-descriptor@{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-descriptor}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-descriptor}]{\setlength{\rightskip}{0pt plus 5cm}const \-::google\-::protobuf\-::\-Enum\-Descriptor$\ast$ S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{referee_8pb_8cc_a2cb8f1955e0078ee01d02e8f98b712b9}
+\hypertarget{referee_8pb_8cc_ae5457b0b89368abea433bb2f18c899ae}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-\-Is\-Valid@{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-\-Is\-Valid}}
+\index{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-\-Is\-Valid@{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-\-Is\-Valid}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-\-Is\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}bool S\-S\-L\-\_\-\-Referee\-\_\-\-Command\-\_\-\-Is\-Valid (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{referee_8pb_8cc_ae5457b0b89368abea433bb2f18c899ae}
+\hypertarget{referee_8pb_8cc_a413e2abe4eaa0da7ebe05077d282452c}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-descriptor@{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-descriptor}}
+\index{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-descriptor@{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-descriptor}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-descriptor}]{\setlength{\rightskip}{0pt plus 5cm}const \-::google\-::protobuf\-::\-Enum\-Descriptor$\ast$ S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{referee_8pb_8cc_a413e2abe4eaa0da7ebe05077d282452c}
+\hypertarget{referee_8pb_8cc_a5b8011b6e3bf7c1d183f6178c7204e2c}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-\-Is\-Valid@{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-\-Is\-Valid}}
+\index{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-\-Is\-Valid@{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-\-Is\-Valid}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-\-Is\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}bool S\-S\-L\-\_\-\-Referee\-\_\-\-Stage\-\_\-\-Is\-Valid (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{referee_8pb_8cc_a5b8011b6e3bf7c1d183f6178c7204e2c}
+
+
+\subsection{Variable Documentation}
+\hypertarget{referee_8pb_8cc_ae6791a75df2cbfde331377038a262123}{\index{referee.\-pb.\-cc@{referee.\-pb.\-cc}!static\-\_\-descriptor\-\_\-initializer\-\_\-referee\-\_\-2eproto\-\_\-@{static\-\_\-descriptor\-\_\-initializer\-\_\-referee\-\_\-2eproto\-\_\-}}
+\index{static\-\_\-descriptor\-\_\-initializer\-\_\-referee\-\_\-2eproto\-\_\-@{static\-\_\-descriptor\-\_\-initializer\-\_\-referee\-\_\-2eproto\-\_\-}!referee.pb.cc@{referee.\-pb.\-cc}}
+\subsubsection[{static\-\_\-descriptor\-\_\-initializer\-\_\-referee\-\_\-2eproto\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}struct {\bf Static\-Descriptor\-Initializer\-\_\-referee\-\_\-2eproto}  static\-\_\-descriptor\-\_\-initializer\-\_\-referee\-\_\-2eproto\-\_\-}}\label{referee_8pb_8cc_ae6791a75df2cbfde331377038a262123}

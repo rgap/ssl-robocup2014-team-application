@@ -1,0 +1,94 @@
+\hypertarget{class_game_control}{\section{Game\-Control Class Reference}
+\label{class_game_control}\index{Game\-Control@{Game\-Control}}
+}
+
+
+{\ttfamily \#include $<$Game\-Control.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_game_control_a04a98aec101aceaa9586ce01b2b95c71}{Game\-Control} ()
+\item 
+void \hyperlink{class_game_control_a0b0e13604b30bfe6b5343ccdadeac441}{initialize} (Q\-Udp\-Socket $\ast$socket\-\_\-, Q\-Host\-Address \&addr\-\_\-simulator\-\_\-, quint16 \&port\-\_\-simulator\-\_\-)
+\item 
+void \hyperlink{class_game_control_a93de034ee41a24f312e1d16f4b90db07}{parse\-Received\-Buffer} (Q\-Byte\-Array \&buffer)
+\item 
+void \hyperlink{class_game_control_aaa1e03a1107d44bba1a93c7348c89809}{send\-Robot\-Stop} (int robot\-I\-D, bool is\-Yellow)
+\item 
+void \hyperlink{class_game_control_a10e3094eb274cea510a6962eea330ef1}{send\-Robot\-Position} (int robot\-I\-D, bool is\-Yellow, double x, double y, double orientation, double vel, double kick\-Vel)
+\item 
+void \hyperlink{class_game_control_a4cb62e833c8408c09f12c2e76a9ab161}{send\-Initial\-Positions} ()
+\item 
+void \hyperlink{class_game_control_acca66f2bf6d083f415dc22db7a2c2960}{send\-Packet} (\hyperlink{classgr_sim___packet}{gr\-Sim\-\_\-\-Packet} \&packet)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_game_control_a04a98aec101aceaa9586ce01b2b95c71}{\index{Game\-Control@{Game\-Control}!Game\-Control@{Game\-Control}}
+\index{Game\-Control@{Game\-Control}!GameControl@{Game\-Control}}
+\subsubsection[{Game\-Control}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Control\-::\-Game\-Control (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_control_a04a98aec101aceaa9586ce01b2b95c71}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_game_control_a0b0e13604b30bfe6b5343ccdadeac441}{\index{Game\-Control@{Game\-Control}!initialize@{initialize}}
+\index{initialize@{initialize}!GameControl@{Game\-Control}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Control\-::initialize (
+\begin{DoxyParamCaption}
+\item[{Q\-Udp\-Socket $\ast$}]{socket\-\_\-, }
+\item[{Q\-Host\-Address \&}]{addr\-\_\-simulator\-\_\-, }
+\item[{quint16 \&}]{port\-\_\-simulator\-\_\-}
+\end{DoxyParamCaption}
+)}}\label{class_game_control_a0b0e13604b30bfe6b5343ccdadeac441}
+\hypertarget{class_game_control_a93de034ee41a24f312e1d16f4b90db07}{\index{Game\-Control@{Game\-Control}!parse\-Received\-Buffer@{parse\-Received\-Buffer}}
+\index{parse\-Received\-Buffer@{parse\-Received\-Buffer}!GameControl@{Game\-Control}}
+\subsubsection[{parse\-Received\-Buffer}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Control\-::parse\-Received\-Buffer (
+\begin{DoxyParamCaption}
+\item[{Q\-Byte\-Array \&}]{buffer}
+\end{DoxyParamCaption}
+)}}\label{class_game_control_a93de034ee41a24f312e1d16f4b90db07}
+\hypertarget{class_game_control_a4cb62e833c8408c09f12c2e76a9ab161}{\index{Game\-Control@{Game\-Control}!send\-Initial\-Positions@{send\-Initial\-Positions}}
+\index{send\-Initial\-Positions@{send\-Initial\-Positions}!GameControl@{Game\-Control}}
+\subsubsection[{send\-Initial\-Positions}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Control\-::send\-Initial\-Positions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_game_control_a4cb62e833c8408c09f12c2e76a9ab161}
+\hypertarget{class_game_control_acca66f2bf6d083f415dc22db7a2c2960}{\index{Game\-Control@{Game\-Control}!send\-Packet@{send\-Packet}}
+\index{send\-Packet@{send\-Packet}!GameControl@{Game\-Control}}
+\subsubsection[{send\-Packet}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Control\-::send\-Packet (
+\begin{DoxyParamCaption}
+\item[{{\bf gr\-Sim\-\_\-\-Packet} \&}]{packet}
+\end{DoxyParamCaption}
+)}}\label{class_game_control_acca66f2bf6d083f415dc22db7a2c2960}
+\hypertarget{class_game_control_a10e3094eb274cea510a6962eea330ef1}{\index{Game\-Control@{Game\-Control}!send\-Robot\-Position@{send\-Robot\-Position}}
+\index{send\-Robot\-Position@{send\-Robot\-Position}!GameControl@{Game\-Control}}
+\subsubsection[{send\-Robot\-Position}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Control\-::send\-Robot\-Position (
+\begin{DoxyParamCaption}
+\item[{int}]{robot\-I\-D, }
+\item[{bool}]{is\-Yellow, }
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{orientation, }
+\item[{double}]{vel, }
+\item[{double}]{kick\-Vel}
+\end{DoxyParamCaption}
+)}}\label{class_game_control_a10e3094eb274cea510a6962eea330ef1}
+\hypertarget{class_game_control_aaa1e03a1107d44bba1a93c7348c89809}{\index{Game\-Control@{Game\-Control}!send\-Robot\-Stop@{send\-Robot\-Stop}}
+\index{send\-Robot\-Stop@{send\-Robot\-Stop}!GameControl@{Game\-Control}}
+\subsubsection[{send\-Robot\-Stop}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Control\-::send\-Robot\-Stop (
+\begin{DoxyParamCaption}
+\item[{int}]{robot\-I\-D, }
+\item[{bool}]{is\-Yellow}
+\end{DoxyParamCaption}
+)}}\label{class_game_control_aaa1e03a1107d44bba1a93c7348c89809}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_game_control_8h}{Game\-Control.\-h}\item 
+\hyperlink{_game_control_8cpp}{Game\-Control.\-cpp}\end{DoxyCompactItemize}

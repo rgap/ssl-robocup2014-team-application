@@ -1,0 +1,750 @@
+\hypertarget{class_save_state}{\section{Save\-State Class Reference}
+\label{class_save_state}\index{Save\-State@{Save\-State}}
+}
+
+
+{\ttfamily \#include $<$savestate.\-pb.\-h$>$}
+
+
+
+Inherits Message.
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \hyperlink{class_save_state___card_info}{Save\-State\-\_\-\-Card\-Info} \hyperlink{class_save_state_abde3f0857a29132cb744d13e816210ab}{Card\-Info}
+\item 
+typedef \hyperlink{class_save_state___timeout_info}{Save\-State\-\_\-\-Timeout\-Info} \hyperlink{class_save_state_a2694fe3d48366ec4922d7b3d91eae0bf}{Timeout\-Info}
+\item 
+typedef \hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8c}{Save\-State\-\_\-\-Team} \hyperlink{class_save_state_ace00ccb64c1251c8125f66dbb0ef6e17}{Team}
+\item 
+typedef \hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7}{Save\-State\-\_\-\-Card} \hyperlink{class_save_state_aac93841636d6a251481a54747d72a6bb}{Card}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_save_state_a0023ddee528f4cd97fdd264675147c8a}{Save\-State} ()
+\item 
+virtual \hyperlink{class_save_state_ac3a675443b8665ee7f69708233b12453}{$\sim$\-Save\-State} ()
+\item 
+\hyperlink{class_save_state_a316e4e2358d79d3d8111e3672a5acc2f}{Save\-State} (const \hyperlink{class_save_state}{Save\-State} \&from)
+\item 
+\hyperlink{class_save_state}{Save\-State} \& \hyperlink{class_save_state_a19ecd68fa3882195fa3a71580ccebcad}{operator=} (const \hyperlink{class_save_state}{Save\-State} \&from)
+\item 
+const \\*
+\-::google\-::protobuf\-::\-Unknown\-Field\-Set \& \hyperlink{class_save_state_afe5ddbed34fe49927ae07fb0397652dd}{unknown\-\_\-fields} () const 
+\item 
+inline\-::google\-::protobuf\-::\-Unknown\-Field\-Set $\ast$ \hyperlink{class_save_state_a0760d6646dc4abcb7d22665e8434c1bc}{mutable\-\_\-unknown\-\_\-fields} ()
+\item 
+void \hyperlink{class_save_state_a72020c4bceabb86bbfbd938e5cb4c8ef}{Swap} (\hyperlink{class_save_state}{Save\-State} $\ast$other)
+\item 
+\hyperlink{class_save_state}{Save\-State} $\ast$ \hyperlink{class_save_state_a291bca00915ed246ffe4b8140756fd5c}{New} () const 
+\item 
+void \hyperlink{class_save_state_a1b9c8192e71bb76356c49aca9d40ce7e}{Copy\-From} (const \-::google\-::protobuf\-::\-Message \&from)
+\item 
+void \hyperlink{class_save_state_a70ecbdbf8b573cf7fc3bc266dcd63eac}{Merge\-From} (const \-::google\-::protobuf\-::\-Message \&from)
+\item 
+void \hyperlink{class_save_state_a364258d6d1e94f74499980453a58ddbd}{Copy\-From} (const \hyperlink{class_save_state}{Save\-State} \&from)
+\item 
+void \hyperlink{class_save_state_a396590e9137bcd2c3f43f2ac66e0450c}{Merge\-From} (const \hyperlink{class_save_state}{Save\-State} \&from)
+\item 
+void \hyperlink{class_save_state_a7f9bdede70e3acb1863aae58b8b8eff0}{Clear} ()
+\item 
+bool \hyperlink{class_save_state_a880449351424f5ac0fcc1fb829d5a328}{Is\-Initialized} () const 
+\item 
+int \hyperlink{class_save_state_a2e17d298aa8472cdb3af407a4e5cd888}{Byte\-Size} () const 
+\item 
+bool \hyperlink{class_save_state_a3ca71650fe5a5762819b25244446e160}{Merge\-Partial\-From\-Coded\-Stream} (\-::google\-::protobuf\-::io\-::\-Coded\-Input\-Stream $\ast$input)
+\item 
+void \hyperlink{class_save_state_a1e823603106045295486487baa5794d9}{Serialize\-With\-Cached\-Sizes} (\-::google\-::protobuf\-::io\-::\-Coded\-Output\-Stream $\ast$output) const 
+\item 
+\-::google\-::protobuf\-::uint8 $\ast$ \hyperlink{class_save_state_a0d1587f659b8905e24a66804a837ee7c}{Serialize\-With\-Cached\-Sizes\-To\-Array} (\-::google\-::protobuf\-::uint8 $\ast$output) const 
+\item 
+int \hyperlink{class_save_state_a7f1b40ede76826f636613aecb1d28379}{Get\-Cached\-Size} () const 
+\item 
+\-::google\-::protobuf\-::\-Metadata \hyperlink{class_save_state_a31a115c6e66c3b0fd45a6da85a36630f}{Get\-Metadata} () const 
+\item 
+bool \hyperlink{class_save_state_a3248660de7020b1350f2afaf5aa9ff16}{has\-\_\-referee} () const 
+\item 
+void \hyperlink{class_save_state_a78cdbbba9b3ac4a28dacbe0427ca353d}{clear\-\_\-referee} ()
+\item 
+const \-::\hyperlink{class_s_s_l___referee}{S\-S\-L\-\_\-\-Referee} \& \hyperlink{class_save_state_ab0750d983c8775ae1c70d9bf4719eb1c}{referee} () const 
+\item 
+inline\-::\-S\-S\-L\-\_\-\-Referee $\ast$ \hyperlink{class_save_state_a5abf1416b8a27ccf854c9acd5b3e0140}{mutable\-\_\-referee} ()
+\item 
+inline\-::\-S\-S\-L\-\_\-\-Referee $\ast$ \hyperlink{class_save_state_a851c06ad8b6470e6b1e8c3ec5da915d0}{release\-\_\-referee} ()
+\item 
+void \hyperlink{class_save_state_a1c10e02c5981d2f785b42efe9f4a45d1}{set\-\_\-allocated\-\_\-referee} (\-::\hyperlink{class_s_s_l___referee}{S\-S\-L\-\_\-\-Referee} $\ast$\hyperlink{class_save_state_ab0750d983c8775ae1c70d9bf4719eb1c}{referee})
+\item 
+bool \hyperlink{class_save_state_aba8328df1ffdae696aba6abba35a4269}{has\-\_\-yellow\-\_\-penalty\-\_\-goals} () const 
+\item 
+void \hyperlink{class_save_state_ad34e94698eec5e5efbe8379cf20fa378}{clear\-\_\-yellow\-\_\-penalty\-\_\-goals} ()
+\item 
+inline\-::google\-::protobuf\-::uint32 \hyperlink{class_save_state_a66ffa17af359d2aae1d05a721c610ca0}{yellow\-\_\-penalty\-\_\-goals} () const 
+\item 
+void \hyperlink{class_save_state_a378be2ec48d97fc07b58348df625e267}{set\-\_\-yellow\-\_\-penalty\-\_\-goals} (\-::google\-::protobuf\-::uint32 value)
+\item 
+bool \hyperlink{class_save_state_a93bd6c777b8727df0bc2c6644986c74a}{has\-\_\-blue\-\_\-penalty\-\_\-goals} () const 
+\item 
+void \hyperlink{class_save_state_a63c1caab5c01764eda67e07e9a558954}{clear\-\_\-blue\-\_\-penalty\-\_\-goals} ()
+\item 
+inline\-::google\-::protobuf\-::uint32 \hyperlink{class_save_state_a6f158917a5aa97a597539082e42c9712}{blue\-\_\-penalty\-\_\-goals} () const 
+\item 
+void \hyperlink{class_save_state_a9a36e57ccee286e765ba7de290372d25}{set\-\_\-blue\-\_\-penalty\-\_\-goals} (\-::google\-::protobuf\-::uint32 value)
+\item 
+bool \hyperlink{class_save_state_aad0fa1f08db409c58a3b1a552d783f50}{has\-\_\-time\-\_\-taken} () const 
+\item 
+void \hyperlink{class_save_state_aab9cc81f41180f7e8550916c1f35dcc4}{clear\-\_\-time\-\_\-taken} ()
+\item 
+inline\-::google\-::protobuf\-::uint64 \hyperlink{class_save_state_a11a9ffe06a6af239c70e55a98862abe2}{time\-\_\-taken} () const 
+\item 
+void \hyperlink{class_save_state_a8420dceba818ea205eede67971c0724c}{set\-\_\-time\-\_\-taken} (\-::google\-::protobuf\-::uint64 value)
+\item 
+bool \hyperlink{class_save_state_adbd946e1d329a5a8ed95470ca3a84e1a}{has\-\_\-last\-\_\-card} () const 
+\item 
+void \hyperlink{class_save_state_aba260bc230179749b013fdb8e77b72cc}{clear\-\_\-last\-\_\-card} ()
+\item 
+const \-::\hyperlink{class_save_state___card_info}{Save\-State\-\_\-\-Card\-Info} \& \hyperlink{class_save_state_a5e8a964aec9672579514bea0b88ea9e1}{last\-\_\-card} () const 
+\item 
+inline\-::\-Save\-State\-\_\-\-Card\-Info $\ast$ \hyperlink{class_save_state_acaac51e35b24d0185b1767b5a64a6a03}{mutable\-\_\-last\-\_\-card} ()
+\item 
+inline\-::\-Save\-State\-\_\-\-Card\-Info $\ast$ \hyperlink{class_save_state_ae00998ec01794d8f24767571fbe573c7}{release\-\_\-last\-\_\-card} ()
+\item 
+void \hyperlink{class_save_state_a1ccf5ece5589b63cb730cbcee402d341}{set\-\_\-allocated\-\_\-last\-\_\-card} (\-::\hyperlink{class_save_state___card_info}{Save\-State\-\_\-\-Card\-Info} $\ast$\hyperlink{class_save_state_a5e8a964aec9672579514bea0b88ea9e1}{last\-\_\-card})
+\item 
+bool \hyperlink{class_save_state_a2f0862c53b24215363deea35fb18fb53}{has\-\_\-timeout} () const 
+\item 
+void \hyperlink{class_save_state_ae8d27bf3610103cf4ef2bd027ac0b0c5}{clear\-\_\-timeout} ()
+\item 
+const \-::\hyperlink{class_save_state___timeout_info}{Save\-State\-\_\-\-Timeout\-Info} \& \hyperlink{class_save_state_af2437be022b45617682c684e365925aa}{timeout} () const 
+\item 
+inline\-::\-Save\-State\-\_\-\-Timeout\-Info $\ast$ \hyperlink{class_save_state_af2a71152171602f5c81e9b83ec8b52b0}{mutable\-\_\-timeout} ()
+\item 
+inline\-::\-Save\-State\-\_\-\-Timeout\-Info $\ast$ \hyperlink{class_save_state_a5b1ff094683a6b392c3ea839acaba400}{release\-\_\-timeout} ()
+\item 
+void \hyperlink{class_save_state_a8759f21f21b1864473e7b30884e0f547}{set\-\_\-allocated\-\_\-timeout} (\-::\hyperlink{class_save_state___timeout_info}{Save\-State\-\_\-\-Timeout\-Info} $\ast$\hyperlink{class_save_state_af2437be022b45617682c684e365925aa}{timeout})
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static const \\*
+\-::google\-::protobuf\-::\-Descriptor $\ast$ \hyperlink{class_save_state_adeabd8286b7a96aa408e25103ce69324}{descriptor} ()
+\item 
+static const \hyperlink{class_save_state}{Save\-State} \& \hyperlink{class_save_state_a50e2fda7a2dd16fd8e2580ddad27bfdd}{default\-\_\-instance} ()
+\item 
+static bool \hyperlink{class_save_state_a9d2814056782aebf5a0969a1b2ea7bfd}{Team\-\_\-\-Is\-Valid} (int value)
+\item 
+static const \\*
+\-::google\-::protobuf\-::\-Enum\-Descriptor $\ast$ \hyperlink{class_save_state_ac9730da2c7311dca20769725848b1a7e}{Team\-\_\-descriptor} ()
+\item 
+static const \-::std\-::string \& \hyperlink{class_save_state_a6dbe5ddcf5216a823468894bf6e563c2}{Team\-\_\-\-Name} (\hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8c}{Team} value)
+\item 
+static bool \hyperlink{class_save_state_a3473aa0fa96b04209b6bf7d5e4f7097b}{Team\-\_\-\-Parse} (const \-::std\-::string \&name, \hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8c}{Team} $\ast$value)
+\item 
+static bool \hyperlink{class_save_state_a2d605613ca0574e0de41bfed77586014}{Card\-\_\-\-Is\-Valid} (int value)
+\item 
+static const \\*
+\-::google\-::protobuf\-::\-Enum\-Descriptor $\ast$ \hyperlink{class_save_state_a9fe9eda198f10326c5a855f7cc2a4d5f}{Card\-\_\-descriptor} ()
+\item 
+static const \-::std\-::string \& \hyperlink{class_save_state_a3d85b50bb3e31e375554edf8f3f26805}{Card\-\_\-\-Name} (\hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7}{Card} value)
+\item 
+static bool \hyperlink{class_save_state_a568713cf178238759525c4a703fe55af}{Card\-\_\-\-Parse} (const \-::std\-::string \&name, \hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7}{Card} $\ast$value)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const \hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8c}{Team} \hyperlink{class_save_state_a72558d895179b05de4d72e793aa61d4b}{T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W} = \hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8caf116857a1f5db3af6927846231dca291}{Save\-State\-\_\-\-Team\-\_\-\-T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W}
+\item 
+static const \hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8c}{Team} \hyperlink{class_save_state_adf1b7a39d63e6e33f3b6d72991c9830a}{T\-E\-A\-M\-\_\-\-B\-L\-U\-E} = \hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8ca8e18e24b9a2d6b63652871ecfd339c7f}{Save\-State\-\_\-\-Team\-\_\-\-T\-E\-A\-M\-\_\-\-B\-L\-U\-E}
+\item 
+static const \hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8c}{Team} \hyperlink{class_save_state_a00a41fbb76076221a5f8fb005a783c98}{Team\-\_\-\-M\-I\-N}
+\item 
+static const \hyperlink{savestate_8pb_8h_a4b014fc7586e8ed50211fe26dace5b8c}{Team} \hyperlink{class_save_state_a62f9cfc066b2ab0c830f2bff1a80164a}{Team\-\_\-\-M\-A\-X}
+\item 
+static const int \hyperlink{class_save_state_a76a00bd36df002f12b227f2cc67378f0}{Team\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E}
+\item 
+static const \hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7}{Card} \hyperlink{class_save_state_a84a75080b197d2db26f057a9b1bcf6fa}{C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W} = \hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7a6798f3fc3256bf56572c87b7d23f0339}{Save\-State\-\_\-\-Card\-\_\-\-C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W}
+\item 
+static const \hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7}{Card} \hyperlink{class_save_state_ad5a49006bca296944d1e47866f19b563}{C\-A\-R\-D\-\_\-\-R\-E\-D} = \hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7a465fa2c5cbcfa08957d831655052b6ae}{Save\-State\-\_\-\-Card\-\_\-\-C\-A\-R\-D\-\_\-\-R\-E\-D}
+\item 
+static const \hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7}{Card} \hyperlink{class_save_state_a7e057bef2422d7071e567df68abe4df9}{Card\-\_\-\-M\-I\-N}
+\item 
+static const \hyperlink{savestate_8pb_8h_a3d0d776b2483d298617cad1c15956ec7}{Card} \hyperlink{class_save_state_ac6958bff2bc49eac49f8ec5adf1801d7}{Card\-\_\-\-M\-A\-X}
+\item 
+static const int \hyperlink{class_save_state_a31127722479705d6093311c6e3957cf5}{Card\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E}
+\item 
+static const int \hyperlink{class_save_state_a261b18f42fc68c50597b15bb4b1fa51d}{k\-Referee\-Field\-Number} = 1
+\item 
+static const int \hyperlink{class_save_state_aa4c464e8a710304b588306149aeeba68}{k\-Yellow\-Penalty\-Goals\-Field\-Number} = 2
+\item 
+static const int \hyperlink{class_save_state_adb90bc94a38a09d43029e70c871c3451}{k\-Blue\-Penalty\-Goals\-Field\-Number} = 3
+\item 
+static const int \hyperlink{class_save_state_aaa0caf19183208fb4c02c01a245e3793}{k\-Time\-Taken\-Field\-Number} = 4
+\item 
+static const int \hyperlink{class_save_state_af5458dd12394b9c7319a20c709b30f9b}{k\-Last\-Card\-Field\-Number} = 5
+\item 
+static const int \hyperlink{class_save_state_a076c51325563ffdfdf35a02b947a88a7}{k\-Timeout\-Field\-Number} = 6
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_save_state_a6c158c382b70217710599263699c97b8}{protobuf\-\_\-\-Add\-Desc\-\_\-savestate\-\_\-2eproto} ()
+\item 
+void \hyperlink{class_save_state_ad76d2b61ce7efa59b3fa8cc9a2e22804}{protobuf\-\_\-\-Assign\-Desc\-\_\-savestate\-\_\-2eproto} ()
+\item 
+void \hyperlink{class_save_state_a1ecf56abe5c72689d00559c47c8e69f7}{protobuf\-\_\-\-Shutdown\-File\-\_\-savestate\-\_\-2eproto} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\hypertarget{class_save_state_aac93841636d6a251481a54747d72a6bb}{\index{Save\-State@{Save\-State}!Card@{Card}}
+\index{Card@{Card}!SaveState@{Save\-State}}
+\subsubsection[{Card}]{\setlength{\rightskip}{0pt plus 5cm}typedef {\bf Save\-State\-\_\-\-Card} {\bf Save\-State\-::\-Card}}}\label{class_save_state_aac93841636d6a251481a54747d72a6bb}
+\hypertarget{class_save_state_abde3f0857a29132cb744d13e816210ab}{\index{Save\-State@{Save\-State}!Card\-Info@{Card\-Info}}
+\index{Card\-Info@{Card\-Info}!SaveState@{Save\-State}}
+\subsubsection[{Card\-Info}]{\setlength{\rightskip}{0pt plus 5cm}typedef {\bf Save\-State\-\_\-\-Card\-Info} {\bf Save\-State\-::\-Card\-Info}}}\label{class_save_state_abde3f0857a29132cb744d13e816210ab}
+\hypertarget{class_save_state_ace00ccb64c1251c8125f66dbb0ef6e17}{\index{Save\-State@{Save\-State}!Team@{Team}}
+\index{Team@{Team}!SaveState@{Save\-State}}
+\subsubsection[{Team}]{\setlength{\rightskip}{0pt plus 5cm}typedef {\bf Save\-State\-\_\-\-Team} {\bf Save\-State\-::\-Team}}}\label{class_save_state_ace00ccb64c1251c8125f66dbb0ef6e17}
+\hypertarget{class_save_state_a2694fe3d48366ec4922d7b3d91eae0bf}{\index{Save\-State@{Save\-State}!Timeout\-Info@{Timeout\-Info}}
+\index{Timeout\-Info@{Timeout\-Info}!SaveState@{Save\-State}}
+\subsubsection[{Timeout\-Info}]{\setlength{\rightskip}{0pt plus 5cm}typedef {\bf Save\-State\-\_\-\-Timeout\-Info} {\bf Save\-State\-::\-Timeout\-Info}}}\label{class_save_state_a2694fe3d48366ec4922d7b3d91eae0bf}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_save_state_a0023ddee528f4cd97fdd264675147c8a}{\index{Save\-State@{Save\-State}!Save\-State@{Save\-State}}
+\index{Save\-State@{Save\-State}!SaveState@{Save\-State}}
+\subsubsection[{Save\-State}]{\setlength{\rightskip}{0pt plus 5cm}Save\-State\-::\-Save\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a0023ddee528f4cd97fdd264675147c8a}
+\hypertarget{class_save_state_ac3a675443b8665ee7f69708233b12453}{\index{Save\-State@{Save\-State}!$\sim$\-Save\-State@{$\sim$\-Save\-State}}
+\index{$\sim$\-Save\-State@{$\sim$\-Save\-State}!SaveState@{Save\-State}}
+\subsubsection[{$\sim$\-Save\-State}]{\setlength{\rightskip}{0pt plus 5cm}Save\-State\-::$\sim$\-Save\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_save_state_ac3a675443b8665ee7f69708233b12453}
+\hypertarget{class_save_state_a316e4e2358d79d3d8111e3672a5acc2f}{\index{Save\-State@{Save\-State}!Save\-State@{Save\-State}}
+\index{Save\-State@{Save\-State}!SaveState@{Save\-State}}
+\subsubsection[{Save\-State}]{\setlength{\rightskip}{0pt plus 5cm}Save\-State\-::\-Save\-State (
+\begin{DoxyParamCaption}
+\item[{const {\bf Save\-State} \&}]{from}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a316e4e2358d79d3d8111e3672a5acc2f}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_save_state_a6f158917a5aa97a597539082e42c9712}{\index{Save\-State@{Save\-State}!blue\-\_\-penalty\-\_\-goals@{blue\-\_\-penalty\-\_\-goals}}
+\index{blue\-\_\-penalty\-\_\-goals@{blue\-\_\-penalty\-\_\-goals}!SaveState@{Save\-State}}
+\subsubsection[{blue\-\_\-penalty\-\_\-goals}]{\setlength{\rightskip}{0pt plus 5cm}google\-::protobuf\-::uint32 Save\-State\-::blue\-\_\-penalty\-\_\-goals (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a6f158917a5aa97a597539082e42c9712}
+\hypertarget{class_save_state_a2e17d298aa8472cdb3af407a4e5cd888}{\index{Save\-State@{Save\-State}!Byte\-Size@{Byte\-Size}}
+\index{Byte\-Size@{Byte\-Size}!SaveState@{Save\-State}}
+\subsubsection[{Byte\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int Save\-State\-::\-Byte\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_save_state_a2e17d298aa8472cdb3af407a4e5cd888}
+\hypertarget{class_save_state_a9fe9eda198f10326c5a855f7cc2a4d5f}{\index{Save\-State@{Save\-State}!Card\-\_\-descriptor@{Card\-\_\-descriptor}}
+\index{Card\-\_\-descriptor@{Card\-\_\-descriptor}!SaveState@{Save\-State}}
+\subsubsection[{Card\-\_\-descriptor}]{\setlength{\rightskip}{0pt plus 5cm}static const \-::google\-::protobuf\-::\-Enum\-Descriptor$\ast$ Save\-State\-::\-Card\-\_\-descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_save_state_a9fe9eda198f10326c5a855f7cc2a4d5f}
+\hypertarget{class_save_state_a2d605613ca0574e0de41bfed77586014}{\index{Save\-State@{Save\-State}!Card\-\_\-\-Is\-Valid@{Card\-\_\-\-Is\-Valid}}
+\index{Card\-\_\-\-Is\-Valid@{Card\-\_\-\-Is\-Valid}!SaveState@{Save\-State}}
+\subsubsection[{Card\-\_\-\-Is\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}static bool Save\-State\-::\-Card\-\_\-\-Is\-Valid (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_save_state_a2d605613ca0574e0de41bfed77586014}
+\hypertarget{class_save_state_a3d85b50bb3e31e375554edf8f3f26805}{\index{Save\-State@{Save\-State}!Card\-\_\-\-Name@{Card\-\_\-\-Name}}
+\index{Card\-\_\-\-Name@{Card\-\_\-\-Name}!SaveState@{Save\-State}}
+\subsubsection[{Card\-\_\-\-Name}]{\setlength{\rightskip}{0pt plus 5cm}static const \-::std\-::string\& Save\-State\-::\-Card\-\_\-\-Name (
+\begin{DoxyParamCaption}
+\item[{{\bf Card}}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_save_state_a3d85b50bb3e31e375554edf8f3f26805}
+\hypertarget{class_save_state_a568713cf178238759525c4a703fe55af}{\index{Save\-State@{Save\-State}!Card\-\_\-\-Parse@{Card\-\_\-\-Parse}}
+\index{Card\-\_\-\-Parse@{Card\-\_\-\-Parse}!SaveState@{Save\-State}}
+\subsubsection[{Card\-\_\-\-Parse}]{\setlength{\rightskip}{0pt plus 5cm}static bool Save\-State\-::\-Card\-\_\-\-Parse (
+\begin{DoxyParamCaption}
+\item[{const \-::std\-::string \&}]{name, }
+\item[{{\bf Card} $\ast$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_save_state_a568713cf178238759525c4a703fe55af}
+\hypertarget{class_save_state_a7f9bdede70e3acb1863aae58b8b8eff0}{\index{Save\-State@{Save\-State}!Clear@{Clear}}
+\index{Clear@{Clear}!SaveState@{Save\-State}}
+\subsubsection[{Clear}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::\-Clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a7f9bdede70e3acb1863aae58b8b8eff0}
+\hypertarget{class_save_state_a63c1caab5c01764eda67e07e9a558954}{\index{Save\-State@{Save\-State}!clear\-\_\-blue\-\_\-penalty\-\_\-goals@{clear\-\_\-blue\-\_\-penalty\-\_\-goals}}
+\index{clear\-\_\-blue\-\_\-penalty\-\_\-goals@{clear\-\_\-blue\-\_\-penalty\-\_\-goals}!SaveState@{Save\-State}}
+\subsubsection[{clear\-\_\-blue\-\_\-penalty\-\_\-goals}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::clear\-\_\-blue\-\_\-penalty\-\_\-goals (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a63c1caab5c01764eda67e07e9a558954}
+\hypertarget{class_save_state_aba260bc230179749b013fdb8e77b72cc}{\index{Save\-State@{Save\-State}!clear\-\_\-last\-\_\-card@{clear\-\_\-last\-\_\-card}}
+\index{clear\-\_\-last\-\_\-card@{clear\-\_\-last\-\_\-card}!SaveState@{Save\-State}}
+\subsubsection[{clear\-\_\-last\-\_\-card}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::clear\-\_\-last\-\_\-card (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_aba260bc230179749b013fdb8e77b72cc}
+\hypertarget{class_save_state_a78cdbbba9b3ac4a28dacbe0427ca353d}{\index{Save\-State@{Save\-State}!clear\-\_\-referee@{clear\-\_\-referee}}
+\index{clear\-\_\-referee@{clear\-\_\-referee}!SaveState@{Save\-State}}
+\subsubsection[{clear\-\_\-referee}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::clear\-\_\-referee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a78cdbbba9b3ac4a28dacbe0427ca353d}
+\hypertarget{class_save_state_aab9cc81f41180f7e8550916c1f35dcc4}{\index{Save\-State@{Save\-State}!clear\-\_\-time\-\_\-taken@{clear\-\_\-time\-\_\-taken}}
+\index{clear\-\_\-time\-\_\-taken@{clear\-\_\-time\-\_\-taken}!SaveState@{Save\-State}}
+\subsubsection[{clear\-\_\-time\-\_\-taken}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::clear\-\_\-time\-\_\-taken (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_aab9cc81f41180f7e8550916c1f35dcc4}
+\hypertarget{class_save_state_ae8d27bf3610103cf4ef2bd027ac0b0c5}{\index{Save\-State@{Save\-State}!clear\-\_\-timeout@{clear\-\_\-timeout}}
+\index{clear\-\_\-timeout@{clear\-\_\-timeout}!SaveState@{Save\-State}}
+\subsubsection[{clear\-\_\-timeout}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::clear\-\_\-timeout (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_ae8d27bf3610103cf4ef2bd027ac0b0c5}
+\hypertarget{class_save_state_ad34e94698eec5e5efbe8379cf20fa378}{\index{Save\-State@{Save\-State}!clear\-\_\-yellow\-\_\-penalty\-\_\-goals@{clear\-\_\-yellow\-\_\-penalty\-\_\-goals}}
+\index{clear\-\_\-yellow\-\_\-penalty\-\_\-goals@{clear\-\_\-yellow\-\_\-penalty\-\_\-goals}!SaveState@{Save\-State}}
+\subsubsection[{clear\-\_\-yellow\-\_\-penalty\-\_\-goals}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::clear\-\_\-yellow\-\_\-penalty\-\_\-goals (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_ad34e94698eec5e5efbe8379cf20fa378}
+\hypertarget{class_save_state_a1b9c8192e71bb76356c49aca9d40ce7e}{\index{Save\-State@{Save\-State}!Copy\-From@{Copy\-From}}
+\index{Copy\-From@{Copy\-From}!SaveState@{Save\-State}}
+\subsubsection[{Copy\-From}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::\-Copy\-From (
+\begin{DoxyParamCaption}
+\item[{const \-::google\-::protobuf\-::\-Message \&}]{from}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a1b9c8192e71bb76356c49aca9d40ce7e}
+\hypertarget{class_save_state_a364258d6d1e94f74499980453a58ddbd}{\index{Save\-State@{Save\-State}!Copy\-From@{Copy\-From}}
+\index{Copy\-From@{Copy\-From}!SaveState@{Save\-State}}
+\subsubsection[{Copy\-From}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::\-Copy\-From (
+\begin{DoxyParamCaption}
+\item[{const {\bf Save\-State} \&}]{from}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a364258d6d1e94f74499980453a58ddbd}
+\hypertarget{class_save_state_a50e2fda7a2dd16fd8e2580ddad27bfdd}{\index{Save\-State@{Save\-State}!default\-\_\-instance@{default\-\_\-instance}}
+\index{default\-\_\-instance@{default\-\_\-instance}!SaveState@{Save\-State}}
+\subsubsection[{default\-\_\-instance}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State} \& Save\-State\-::default\-\_\-instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a50e2fda7a2dd16fd8e2580ddad27bfdd}
+\hypertarget{class_save_state_adeabd8286b7a96aa408e25103ce69324}{\index{Save\-State@{Save\-State}!descriptor@{descriptor}}
+\index{descriptor@{descriptor}!SaveState@{Save\-State}}
+\subsubsection[{descriptor}]{\setlength{\rightskip}{0pt plus 5cm}const \-::google\-::protobuf\-::\-Descriptor $\ast$ Save\-State\-::descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_adeabd8286b7a96aa408e25103ce69324}
+\hypertarget{class_save_state_a7f1b40ede76826f636613aecb1d28379}{\index{Save\-State@{Save\-State}!Get\-Cached\-Size@{Get\-Cached\-Size}}
+\index{Get\-Cached\-Size@{Get\-Cached\-Size}!SaveState@{Save\-State}}
+\subsubsection[{Get\-Cached\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int Save\-State\-::\-Get\-Cached\-Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a7f1b40ede76826f636613aecb1d28379}
+\hypertarget{class_save_state_a31a115c6e66c3b0fd45a6da85a36630f}{\index{Save\-State@{Save\-State}!Get\-Metadata@{Get\-Metadata}}
+\index{Get\-Metadata@{Get\-Metadata}!SaveState@{Save\-State}}
+\subsubsection[{Get\-Metadata}]{\setlength{\rightskip}{0pt plus 5cm}google\-::protobuf\-::\-Metadata Save\-State\-::\-Get\-Metadata (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_save_state_a31a115c6e66c3b0fd45a6da85a36630f}
+\hypertarget{class_save_state_a93bd6c777b8727df0bc2c6644986c74a}{\index{Save\-State@{Save\-State}!has\-\_\-blue\-\_\-penalty\-\_\-goals@{has\-\_\-blue\-\_\-penalty\-\_\-goals}}
+\index{has\-\_\-blue\-\_\-penalty\-\_\-goals@{has\-\_\-blue\-\_\-penalty\-\_\-goals}!SaveState@{Save\-State}}
+\subsubsection[{has\-\_\-blue\-\_\-penalty\-\_\-goals}]{\setlength{\rightskip}{0pt plus 5cm}bool Save\-State\-::has\-\_\-blue\-\_\-penalty\-\_\-goals (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a93bd6c777b8727df0bc2c6644986c74a}
+\hypertarget{class_save_state_adbd946e1d329a5a8ed95470ca3a84e1a}{\index{Save\-State@{Save\-State}!has\-\_\-last\-\_\-card@{has\-\_\-last\-\_\-card}}
+\index{has\-\_\-last\-\_\-card@{has\-\_\-last\-\_\-card}!SaveState@{Save\-State}}
+\subsubsection[{has\-\_\-last\-\_\-card}]{\setlength{\rightskip}{0pt plus 5cm}bool Save\-State\-::has\-\_\-last\-\_\-card (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_adbd946e1d329a5a8ed95470ca3a84e1a}
+\hypertarget{class_save_state_a3248660de7020b1350f2afaf5aa9ff16}{\index{Save\-State@{Save\-State}!has\-\_\-referee@{has\-\_\-referee}}
+\index{has\-\_\-referee@{has\-\_\-referee}!SaveState@{Save\-State}}
+\subsubsection[{has\-\_\-referee}]{\setlength{\rightskip}{0pt plus 5cm}bool Save\-State\-::has\-\_\-referee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a3248660de7020b1350f2afaf5aa9ff16}
+\hypertarget{class_save_state_aad0fa1f08db409c58a3b1a552d783f50}{\index{Save\-State@{Save\-State}!has\-\_\-time\-\_\-taken@{has\-\_\-time\-\_\-taken}}
+\index{has\-\_\-time\-\_\-taken@{has\-\_\-time\-\_\-taken}!SaveState@{Save\-State}}
+\subsubsection[{has\-\_\-time\-\_\-taken}]{\setlength{\rightskip}{0pt plus 5cm}bool Save\-State\-::has\-\_\-time\-\_\-taken (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_aad0fa1f08db409c58a3b1a552d783f50}
+\hypertarget{class_save_state_a2f0862c53b24215363deea35fb18fb53}{\index{Save\-State@{Save\-State}!has\-\_\-timeout@{has\-\_\-timeout}}
+\index{has\-\_\-timeout@{has\-\_\-timeout}!SaveState@{Save\-State}}
+\subsubsection[{has\-\_\-timeout}]{\setlength{\rightskip}{0pt plus 5cm}bool Save\-State\-::has\-\_\-timeout (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a2f0862c53b24215363deea35fb18fb53}
+\hypertarget{class_save_state_aba8328df1ffdae696aba6abba35a4269}{\index{Save\-State@{Save\-State}!has\-\_\-yellow\-\_\-penalty\-\_\-goals@{has\-\_\-yellow\-\_\-penalty\-\_\-goals}}
+\index{has\-\_\-yellow\-\_\-penalty\-\_\-goals@{has\-\_\-yellow\-\_\-penalty\-\_\-goals}!SaveState@{Save\-State}}
+\subsubsection[{has\-\_\-yellow\-\_\-penalty\-\_\-goals}]{\setlength{\rightskip}{0pt plus 5cm}bool Save\-State\-::has\-\_\-yellow\-\_\-penalty\-\_\-goals (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_aba8328df1ffdae696aba6abba35a4269}
+\hypertarget{class_save_state_a880449351424f5ac0fcc1fb829d5a328}{\index{Save\-State@{Save\-State}!Is\-Initialized@{Is\-Initialized}}
+\index{Is\-Initialized@{Is\-Initialized}!SaveState@{Save\-State}}
+\subsubsection[{Is\-Initialized}]{\setlength{\rightskip}{0pt plus 5cm}bool Save\-State\-::\-Is\-Initialized (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_save_state_a880449351424f5ac0fcc1fb829d5a328}
+\hypertarget{class_save_state_a5e8a964aec9672579514bea0b88ea9e1}{\index{Save\-State@{Save\-State}!last\-\_\-card@{last\-\_\-card}}
+\index{last\-\_\-card@{last\-\_\-card}!SaveState@{Save\-State}}
+\subsubsection[{last\-\_\-card}]{\setlength{\rightskip}{0pt plus 5cm}const \-::{\bf Save\-State\-\_\-\-Card\-Info} \& Save\-State\-::last\-\_\-card (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a5e8a964aec9672579514bea0b88ea9e1}
+\hypertarget{class_save_state_a70ecbdbf8b573cf7fc3bc266dcd63eac}{\index{Save\-State@{Save\-State}!Merge\-From@{Merge\-From}}
+\index{Merge\-From@{Merge\-From}!SaveState@{Save\-State}}
+\subsubsection[{Merge\-From}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::\-Merge\-From (
+\begin{DoxyParamCaption}
+\item[{const \-::google\-::protobuf\-::\-Message \&}]{from}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a70ecbdbf8b573cf7fc3bc266dcd63eac}
+\hypertarget{class_save_state_a396590e9137bcd2c3f43f2ac66e0450c}{\index{Save\-State@{Save\-State}!Merge\-From@{Merge\-From}}
+\index{Merge\-From@{Merge\-From}!SaveState@{Save\-State}}
+\subsubsection[{Merge\-From}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::\-Merge\-From (
+\begin{DoxyParamCaption}
+\item[{const {\bf Save\-State} \&}]{from}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a396590e9137bcd2c3f43f2ac66e0450c}
+\hypertarget{class_save_state_a3ca71650fe5a5762819b25244446e160}{\index{Save\-State@{Save\-State}!Merge\-Partial\-From\-Coded\-Stream@{Merge\-Partial\-From\-Coded\-Stream}}
+\index{Merge\-Partial\-From\-Coded\-Stream@{Merge\-Partial\-From\-Coded\-Stream}!SaveState@{Save\-State}}
+\subsubsection[{Merge\-Partial\-From\-Coded\-Stream}]{\setlength{\rightskip}{0pt plus 5cm}bool Save\-State\-::\-Merge\-Partial\-From\-Coded\-Stream (
+\begin{DoxyParamCaption}
+\item[{\-::google\-::protobuf\-::io\-::\-Coded\-Input\-Stream $\ast$}]{input}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a3ca71650fe5a5762819b25244446e160}
+\hypertarget{class_save_state_acaac51e35b24d0185b1767b5a64a6a03}{\index{Save\-State@{Save\-State}!mutable\-\_\-last\-\_\-card@{mutable\-\_\-last\-\_\-card}}
+\index{mutable\-\_\-last\-\_\-card@{mutable\-\_\-last\-\_\-card}!SaveState@{Save\-State}}
+\subsubsection[{mutable\-\_\-last\-\_\-card}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Save\-State\-\_\-\-Card\-Info} $\ast$ Save\-State\-::mutable\-\_\-last\-\_\-card (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_acaac51e35b24d0185b1767b5a64a6a03}
+\hypertarget{class_save_state_a5abf1416b8a27ccf854c9acd5b3e0140}{\index{Save\-State@{Save\-State}!mutable\-\_\-referee@{mutable\-\_\-referee}}
+\index{mutable\-\_\-referee@{mutable\-\_\-referee}!SaveState@{Save\-State}}
+\subsubsection[{mutable\-\_\-referee}]{\setlength{\rightskip}{0pt plus 5cm}{\bf S\-S\-L\-\_\-\-Referee} $\ast$ Save\-State\-::mutable\-\_\-referee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a5abf1416b8a27ccf854c9acd5b3e0140}
+\hypertarget{class_save_state_af2a71152171602f5c81e9b83ec8b52b0}{\index{Save\-State@{Save\-State}!mutable\-\_\-timeout@{mutable\-\_\-timeout}}
+\index{mutable\-\_\-timeout@{mutable\-\_\-timeout}!SaveState@{Save\-State}}
+\subsubsection[{mutable\-\_\-timeout}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Save\-State\-\_\-\-Timeout\-Info} $\ast$ Save\-State\-::mutable\-\_\-timeout (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_af2a71152171602f5c81e9b83ec8b52b0}
+\hypertarget{class_save_state_a0760d6646dc4abcb7d22665e8434c1bc}{\index{Save\-State@{Save\-State}!mutable\-\_\-unknown\-\_\-fields@{mutable\-\_\-unknown\-\_\-fields}}
+\index{mutable\-\_\-unknown\-\_\-fields@{mutable\-\_\-unknown\-\_\-fields}!SaveState@{Save\-State}}
+\subsubsection[{mutable\-\_\-unknown\-\_\-fields}]{\setlength{\rightskip}{0pt plus 5cm}inline \-::google\-::protobuf\-::\-Unknown\-Field\-Set$\ast$ Save\-State\-::mutable\-\_\-unknown\-\_\-fields (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a0760d6646dc4abcb7d22665e8434c1bc}
+\hypertarget{class_save_state_a291bca00915ed246ffe4b8140756fd5c}{\index{Save\-State@{Save\-State}!New@{New}}
+\index{New@{New}!SaveState@{Save\-State}}
+\subsubsection[{New}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Save\-State} $\ast$ Save\-State\-::\-New (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_save_state_a291bca00915ed246ffe4b8140756fd5c}
+\hypertarget{class_save_state_a19ecd68fa3882195fa3a71580ccebcad}{\index{Save\-State@{Save\-State}!operator=@{operator=}}
+\index{operator=@{operator=}!SaveState@{Save\-State}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Save\-State}\& Save\-State\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Save\-State} \&}]{from}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a19ecd68fa3882195fa3a71580ccebcad}
+\hypertarget{class_save_state_ab0750d983c8775ae1c70d9bf4719eb1c}{\index{Save\-State@{Save\-State}!referee@{referee}}
+\index{referee@{referee}!SaveState@{Save\-State}}
+\subsubsection[{referee}]{\setlength{\rightskip}{0pt plus 5cm}const \-::{\bf S\-S\-L\-\_\-\-Referee} \& Save\-State\-::referee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_ab0750d983c8775ae1c70d9bf4719eb1c}
+\hypertarget{class_save_state_ae00998ec01794d8f24767571fbe573c7}{\index{Save\-State@{Save\-State}!release\-\_\-last\-\_\-card@{release\-\_\-last\-\_\-card}}
+\index{release\-\_\-last\-\_\-card@{release\-\_\-last\-\_\-card}!SaveState@{Save\-State}}
+\subsubsection[{release\-\_\-last\-\_\-card}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Save\-State\-\_\-\-Card\-Info} $\ast$ Save\-State\-::release\-\_\-last\-\_\-card (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_ae00998ec01794d8f24767571fbe573c7}
+\hypertarget{class_save_state_a851c06ad8b6470e6b1e8c3ec5da915d0}{\index{Save\-State@{Save\-State}!release\-\_\-referee@{release\-\_\-referee}}
+\index{release\-\_\-referee@{release\-\_\-referee}!SaveState@{Save\-State}}
+\subsubsection[{release\-\_\-referee}]{\setlength{\rightskip}{0pt plus 5cm}{\bf S\-S\-L\-\_\-\-Referee} $\ast$ Save\-State\-::release\-\_\-referee (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a851c06ad8b6470e6b1e8c3ec5da915d0}
+\hypertarget{class_save_state_a5b1ff094683a6b392c3ea839acaba400}{\index{Save\-State@{Save\-State}!release\-\_\-timeout@{release\-\_\-timeout}}
+\index{release\-\_\-timeout@{release\-\_\-timeout}!SaveState@{Save\-State}}
+\subsubsection[{release\-\_\-timeout}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Save\-State\-\_\-\-Timeout\-Info} $\ast$ Save\-State\-::release\-\_\-timeout (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a5b1ff094683a6b392c3ea839acaba400}
+\hypertarget{class_save_state_a1e823603106045295486487baa5794d9}{\index{Save\-State@{Save\-State}!Serialize\-With\-Cached\-Sizes@{Serialize\-With\-Cached\-Sizes}}
+\index{Serialize\-With\-Cached\-Sizes@{Serialize\-With\-Cached\-Sizes}!SaveState@{Save\-State}}
+\subsubsection[{Serialize\-With\-Cached\-Sizes}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::\-Serialize\-With\-Cached\-Sizes (
+\begin{DoxyParamCaption}
+\item[{\-::google\-::protobuf\-::io\-::\-Coded\-Output\-Stream $\ast$}]{output}
+\end{DoxyParamCaption}
+) const}}\label{class_save_state_a1e823603106045295486487baa5794d9}
+\hypertarget{class_save_state_a0d1587f659b8905e24a66804a837ee7c}{\index{Save\-State@{Save\-State}!Serialize\-With\-Cached\-Sizes\-To\-Array@{Serialize\-With\-Cached\-Sizes\-To\-Array}}
+\index{Serialize\-With\-Cached\-Sizes\-To\-Array@{Serialize\-With\-Cached\-Sizes\-To\-Array}!SaveState@{Save\-State}}
+\subsubsection[{Serialize\-With\-Cached\-Sizes\-To\-Array}]{\setlength{\rightskip}{0pt plus 5cm}google\-::protobuf\-::uint8 $\ast$ Save\-State\-::\-Serialize\-With\-Cached\-Sizes\-To\-Array (
+\begin{DoxyParamCaption}
+\item[{\-::google\-::protobuf\-::uint8 $\ast$}]{output}
+\end{DoxyParamCaption}
+) const}}\label{class_save_state_a0d1587f659b8905e24a66804a837ee7c}
+\hypertarget{class_save_state_a1ccf5ece5589b63cb730cbcee402d341}{\index{Save\-State@{Save\-State}!set\-\_\-allocated\-\_\-last\-\_\-card@{set\-\_\-allocated\-\_\-last\-\_\-card}}
+\index{set\-\_\-allocated\-\_\-last\-\_\-card@{set\-\_\-allocated\-\_\-last\-\_\-card}!SaveState@{Save\-State}}
+\subsubsection[{set\-\_\-allocated\-\_\-last\-\_\-card}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::set\-\_\-allocated\-\_\-last\-\_\-card (
+\begin{DoxyParamCaption}
+\item[{\-::{\bf Save\-State\-\_\-\-Card\-Info} $\ast$}]{last\-\_\-card}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a1ccf5ece5589b63cb730cbcee402d341}
+\hypertarget{class_save_state_a1c10e02c5981d2f785b42efe9f4a45d1}{\index{Save\-State@{Save\-State}!set\-\_\-allocated\-\_\-referee@{set\-\_\-allocated\-\_\-referee}}
+\index{set\-\_\-allocated\-\_\-referee@{set\-\_\-allocated\-\_\-referee}!SaveState@{Save\-State}}
+\subsubsection[{set\-\_\-allocated\-\_\-referee}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::set\-\_\-allocated\-\_\-referee (
+\begin{DoxyParamCaption}
+\item[{\-::{\bf S\-S\-L\-\_\-\-Referee} $\ast$}]{referee}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a1c10e02c5981d2f785b42efe9f4a45d1}
+\hypertarget{class_save_state_a8759f21f21b1864473e7b30884e0f547}{\index{Save\-State@{Save\-State}!set\-\_\-allocated\-\_\-timeout@{set\-\_\-allocated\-\_\-timeout}}
+\index{set\-\_\-allocated\-\_\-timeout@{set\-\_\-allocated\-\_\-timeout}!SaveState@{Save\-State}}
+\subsubsection[{set\-\_\-allocated\-\_\-timeout}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::set\-\_\-allocated\-\_\-timeout (
+\begin{DoxyParamCaption}
+\item[{\-::{\bf Save\-State\-\_\-\-Timeout\-Info} $\ast$}]{timeout}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a8759f21f21b1864473e7b30884e0f547}
+\hypertarget{class_save_state_a9a36e57ccee286e765ba7de290372d25}{\index{Save\-State@{Save\-State}!set\-\_\-blue\-\_\-penalty\-\_\-goals@{set\-\_\-blue\-\_\-penalty\-\_\-goals}}
+\index{set\-\_\-blue\-\_\-penalty\-\_\-goals@{set\-\_\-blue\-\_\-penalty\-\_\-goals}!SaveState@{Save\-State}}
+\subsubsection[{set\-\_\-blue\-\_\-penalty\-\_\-goals}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::set\-\_\-blue\-\_\-penalty\-\_\-goals (
+\begin{DoxyParamCaption}
+\item[{\-::google\-::protobuf\-::uint32}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a9a36e57ccee286e765ba7de290372d25}
+\hypertarget{class_save_state_a8420dceba818ea205eede67971c0724c}{\index{Save\-State@{Save\-State}!set\-\_\-time\-\_\-taken@{set\-\_\-time\-\_\-taken}}
+\index{set\-\_\-time\-\_\-taken@{set\-\_\-time\-\_\-taken}!SaveState@{Save\-State}}
+\subsubsection[{set\-\_\-time\-\_\-taken}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::set\-\_\-time\-\_\-taken (
+\begin{DoxyParamCaption}
+\item[{\-::google\-::protobuf\-::uint64}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a8420dceba818ea205eede67971c0724c}
+\hypertarget{class_save_state_a378be2ec48d97fc07b58348df625e267}{\index{Save\-State@{Save\-State}!set\-\_\-yellow\-\_\-penalty\-\_\-goals@{set\-\_\-yellow\-\_\-penalty\-\_\-goals}}
+\index{set\-\_\-yellow\-\_\-penalty\-\_\-goals@{set\-\_\-yellow\-\_\-penalty\-\_\-goals}!SaveState@{Save\-State}}
+\subsubsection[{set\-\_\-yellow\-\_\-penalty\-\_\-goals}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::set\-\_\-yellow\-\_\-penalty\-\_\-goals (
+\begin{DoxyParamCaption}
+\item[{\-::google\-::protobuf\-::uint32}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a378be2ec48d97fc07b58348df625e267}
+\hypertarget{class_save_state_a72020c4bceabb86bbfbd938e5cb4c8ef}{\index{Save\-State@{Save\-State}!Swap@{Swap}}
+\index{Swap@{Swap}!SaveState@{Save\-State}}
+\subsubsection[{Swap}]{\setlength{\rightskip}{0pt plus 5cm}void Save\-State\-::\-Swap (
+\begin{DoxyParamCaption}
+\item[{{\bf Save\-State} $\ast$}]{other}
+\end{DoxyParamCaption}
+)}}\label{class_save_state_a72020c4bceabb86bbfbd938e5cb4c8ef}
+\hypertarget{class_save_state_ac9730da2c7311dca20769725848b1a7e}{\index{Save\-State@{Save\-State}!Team\-\_\-descriptor@{Team\-\_\-descriptor}}
+\index{Team\-\_\-descriptor@{Team\-\_\-descriptor}!SaveState@{Save\-State}}
+\subsubsection[{Team\-\_\-descriptor}]{\setlength{\rightskip}{0pt plus 5cm}static const \-::google\-::protobuf\-::\-Enum\-Descriptor$\ast$ Save\-State\-::\-Team\-\_\-descriptor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_save_state_ac9730da2c7311dca20769725848b1a7e}
+\hypertarget{class_save_state_a9d2814056782aebf5a0969a1b2ea7bfd}{\index{Save\-State@{Save\-State}!Team\-\_\-\-Is\-Valid@{Team\-\_\-\-Is\-Valid}}
+\index{Team\-\_\-\-Is\-Valid@{Team\-\_\-\-Is\-Valid}!SaveState@{Save\-State}}
+\subsubsection[{Team\-\_\-\-Is\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}static bool Save\-State\-::\-Team\-\_\-\-Is\-Valid (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_save_state_a9d2814056782aebf5a0969a1b2ea7bfd}
+\hypertarget{class_save_state_a6dbe5ddcf5216a823468894bf6e563c2}{\index{Save\-State@{Save\-State}!Team\-\_\-\-Name@{Team\-\_\-\-Name}}
+\index{Team\-\_\-\-Name@{Team\-\_\-\-Name}!SaveState@{Save\-State}}
+\subsubsection[{Team\-\_\-\-Name}]{\setlength{\rightskip}{0pt plus 5cm}static const \-::std\-::string\& Save\-State\-::\-Team\-\_\-\-Name (
+\begin{DoxyParamCaption}
+\item[{{\bf Team}}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_save_state_a6dbe5ddcf5216a823468894bf6e563c2}
+\hypertarget{class_save_state_a3473aa0fa96b04209b6bf7d5e4f7097b}{\index{Save\-State@{Save\-State}!Team\-\_\-\-Parse@{Team\-\_\-\-Parse}}
+\index{Team\-\_\-\-Parse@{Team\-\_\-\-Parse}!SaveState@{Save\-State}}
+\subsubsection[{Team\-\_\-\-Parse}]{\setlength{\rightskip}{0pt plus 5cm}static bool Save\-State\-::\-Team\-\_\-\-Parse (
+\begin{DoxyParamCaption}
+\item[{const \-::std\-::string \&}]{name, }
+\item[{{\bf Team} $\ast$}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_save_state_a3473aa0fa96b04209b6bf7d5e4f7097b}
+\hypertarget{class_save_state_a11a9ffe06a6af239c70e55a98862abe2}{\index{Save\-State@{Save\-State}!time\-\_\-taken@{time\-\_\-taken}}
+\index{time\-\_\-taken@{time\-\_\-taken}!SaveState@{Save\-State}}
+\subsubsection[{time\-\_\-taken}]{\setlength{\rightskip}{0pt plus 5cm}google\-::protobuf\-::uint64 Save\-State\-::time\-\_\-taken (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a11a9ffe06a6af239c70e55a98862abe2}
+\hypertarget{class_save_state_af2437be022b45617682c684e365925aa}{\index{Save\-State@{Save\-State}!timeout@{timeout}}
+\index{timeout@{timeout}!SaveState@{Save\-State}}
+\subsubsection[{timeout}]{\setlength{\rightskip}{0pt plus 5cm}const \-::{\bf Save\-State\-\_\-\-Timeout\-Info} \& Save\-State\-::timeout (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_af2437be022b45617682c684e365925aa}
+\hypertarget{class_save_state_afe5ddbed34fe49927ae07fb0397652dd}{\index{Save\-State@{Save\-State}!unknown\-\_\-fields@{unknown\-\_\-fields}}
+\index{unknown\-\_\-fields@{unknown\-\_\-fields}!SaveState@{Save\-State}}
+\subsubsection[{unknown\-\_\-fields}]{\setlength{\rightskip}{0pt plus 5cm}const \-::google\-::protobuf\-::\-Unknown\-Field\-Set\& Save\-State\-::unknown\-\_\-fields (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_afe5ddbed34fe49927ae07fb0397652dd}
+\hypertarget{class_save_state_a66ffa17af359d2aae1d05a721c610ca0}{\index{Save\-State@{Save\-State}!yellow\-\_\-penalty\-\_\-goals@{yellow\-\_\-penalty\-\_\-goals}}
+\index{yellow\-\_\-penalty\-\_\-goals@{yellow\-\_\-penalty\-\_\-goals}!SaveState@{Save\-State}}
+\subsubsection[{yellow\-\_\-penalty\-\_\-goals}]{\setlength{\rightskip}{0pt plus 5cm}google\-::protobuf\-::uint32 Save\-State\-::yellow\-\_\-penalty\-\_\-goals (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_save_state_a66ffa17af359d2aae1d05a721c610ca0}
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_save_state_a6c158c382b70217710599263699c97b8}{\index{Save\-State@{Save\-State}!protobuf\-\_\-\-Add\-Desc\-\_\-savestate\-\_\-2eproto@{protobuf\-\_\-\-Add\-Desc\-\_\-savestate\-\_\-2eproto}}
+\index{protobuf\-\_\-\-Add\-Desc\-\_\-savestate\-\_\-2eproto@{protobuf\-\_\-\-Add\-Desc\-\_\-savestate\-\_\-2eproto}!SaveState@{Save\-State}}
+\subsubsection[{protobuf\-\_\-\-Add\-Desc\-\_\-savestate\-\_\-2eproto}]{\setlength{\rightskip}{0pt plus 5cm}void protobuf\-\_\-\-Add\-Desc\-\_\-savestate\-\_\-2eproto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_save_state_a6c158c382b70217710599263699c97b8}
+\hypertarget{class_save_state_ad76d2b61ce7efa59b3fa8cc9a2e22804}{\index{Save\-State@{Save\-State}!protobuf\-\_\-\-Assign\-Desc\-\_\-savestate\-\_\-2eproto@{protobuf\-\_\-\-Assign\-Desc\-\_\-savestate\-\_\-2eproto}}
+\index{protobuf\-\_\-\-Assign\-Desc\-\_\-savestate\-\_\-2eproto@{protobuf\-\_\-\-Assign\-Desc\-\_\-savestate\-\_\-2eproto}!SaveState@{Save\-State}}
+\subsubsection[{protobuf\-\_\-\-Assign\-Desc\-\_\-savestate\-\_\-2eproto}]{\setlength{\rightskip}{0pt plus 5cm}void protobuf\-\_\-\-Assign\-Desc\-\_\-savestate\-\_\-2eproto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_save_state_ad76d2b61ce7efa59b3fa8cc9a2e22804}
+\hypertarget{class_save_state_a1ecf56abe5c72689d00559c47c8e69f7}{\index{Save\-State@{Save\-State}!protobuf\-\_\-\-Shutdown\-File\-\_\-savestate\-\_\-2eproto@{protobuf\-\_\-\-Shutdown\-File\-\_\-savestate\-\_\-2eproto}}
+\index{protobuf\-\_\-\-Shutdown\-File\-\_\-savestate\-\_\-2eproto@{protobuf\-\_\-\-Shutdown\-File\-\_\-savestate\-\_\-2eproto}!SaveState@{Save\-State}}
+\subsubsection[{protobuf\-\_\-\-Shutdown\-File\-\_\-savestate\-\_\-2eproto}]{\setlength{\rightskip}{0pt plus 5cm}void protobuf\-\_\-\-Shutdown\-File\-\_\-savestate\-\_\-2eproto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{class_save_state_a1ecf56abe5c72689d00559c47c8e69f7}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_save_state_a31127722479705d6093311c6e3957cf5}{\index{Save\-State@{Save\-State}!Card\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E@{Card\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E}}
+\index{Card\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E@{Card\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E}!SaveState@{Save\-State}}
+\subsubsection[{Card\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}const int Save\-State\-::\-Card\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a31127722479705d6093311c6e3957cf5}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+    \hyperlink{savestate_8pb_8h_a8ecf81b1721ab794c2687f985da56cdb}{SaveState\_Card\_Card\_ARRAYSIZE}
+\end{DoxyCode}
+\hypertarget{class_save_state_ac6958bff2bc49eac49f8ec5adf1801d7}{\index{Save\-State@{Save\-State}!Card\-\_\-\-M\-A\-X@{Card\-\_\-\-M\-A\-X}}
+\index{Card\-\_\-\-M\-A\-X@{Card\-\_\-\-M\-A\-X}!SaveState@{Save\-State}}
+\subsubsection[{Card\-\_\-\-M\-A\-X}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State\-\_\-\-Card} Save\-State\-::\-Card\-\_\-\-M\-A\-X\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_ac6958bff2bc49eac49f8ec5adf1801d7}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+    \hyperlink{savestate_8pb_8h_afbe29090b6b0af43dce17cc83c566170}{SaveState\_Card\_Card\_MAX}
+\end{DoxyCode}
+\hypertarget{class_save_state_a7e057bef2422d7071e567df68abe4df9}{\index{Save\-State@{Save\-State}!Card\-\_\-\-M\-I\-N@{Card\-\_\-\-M\-I\-N}}
+\index{Card\-\_\-\-M\-I\-N@{Card\-\_\-\-M\-I\-N}!SaveState@{Save\-State}}
+\subsubsection[{Card\-\_\-\-M\-I\-N}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State\-\_\-\-Card} Save\-State\-::\-Card\-\_\-\-M\-I\-N\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a7e057bef2422d7071e567df68abe4df9}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+    \hyperlink{savestate_8pb_8h_a3036369938ecbd69a0b4c60da88f4022}{SaveState\_Card\_Card\_MIN}
+\end{DoxyCode}
+\hypertarget{class_save_state_ad5a49006bca296944d1e47866f19b563}{\index{Save\-State@{Save\-State}!C\-A\-R\-D\-\_\-\-R\-E\-D@{C\-A\-R\-D\-\_\-\-R\-E\-D}}
+\index{C\-A\-R\-D\-\_\-\-R\-E\-D@{C\-A\-R\-D\-\_\-\-R\-E\-D}!SaveState@{Save\-State}}
+\subsubsection[{C\-A\-R\-D\-\_\-\-R\-E\-D}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State\-\_\-\-Card} Save\-State\-::\-C\-A\-R\-D\-\_\-\-R\-E\-D = {\bf Save\-State\-\_\-\-Card\-\_\-\-C\-A\-R\-D\-\_\-\-R\-E\-D}\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_ad5a49006bca296944d1e47866f19b563}
+\hypertarget{class_save_state_a84a75080b197d2db26f057a9b1bcf6fa}{\index{Save\-State@{Save\-State}!C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W@{C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W}}
+\index{C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W@{C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W}!SaveState@{Save\-State}}
+\subsubsection[{C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State\-\_\-\-Card} Save\-State\-::\-C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W = {\bf Save\-State\-\_\-\-Card\-\_\-\-C\-A\-R\-D\-\_\-\-Y\-E\-L\-L\-O\-W}\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a84a75080b197d2db26f057a9b1bcf6fa}
+\hypertarget{class_save_state_adb90bc94a38a09d43029e70c871c3451}{\index{Save\-State@{Save\-State}!k\-Blue\-Penalty\-Goals\-Field\-Number@{k\-Blue\-Penalty\-Goals\-Field\-Number}}
+\index{k\-Blue\-Penalty\-Goals\-Field\-Number@{k\-Blue\-Penalty\-Goals\-Field\-Number}!SaveState@{Save\-State}}
+\subsubsection[{k\-Blue\-Penalty\-Goals\-Field\-Number}]{\setlength{\rightskip}{0pt plus 5cm}const int Save\-State\-::k\-Blue\-Penalty\-Goals\-Field\-Number = 3\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_adb90bc94a38a09d43029e70c871c3451}
+\hypertarget{class_save_state_af5458dd12394b9c7319a20c709b30f9b}{\index{Save\-State@{Save\-State}!k\-Last\-Card\-Field\-Number@{k\-Last\-Card\-Field\-Number}}
+\index{k\-Last\-Card\-Field\-Number@{k\-Last\-Card\-Field\-Number}!SaveState@{Save\-State}}
+\subsubsection[{k\-Last\-Card\-Field\-Number}]{\setlength{\rightskip}{0pt plus 5cm}const int Save\-State\-::k\-Last\-Card\-Field\-Number = 5\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_af5458dd12394b9c7319a20c709b30f9b}
+\hypertarget{class_save_state_a261b18f42fc68c50597b15bb4b1fa51d}{\index{Save\-State@{Save\-State}!k\-Referee\-Field\-Number@{k\-Referee\-Field\-Number}}
+\index{k\-Referee\-Field\-Number@{k\-Referee\-Field\-Number}!SaveState@{Save\-State}}
+\subsubsection[{k\-Referee\-Field\-Number}]{\setlength{\rightskip}{0pt plus 5cm}const int Save\-State\-::k\-Referee\-Field\-Number = 1\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a261b18f42fc68c50597b15bb4b1fa51d}
+\hypertarget{class_save_state_a076c51325563ffdfdf35a02b947a88a7}{\index{Save\-State@{Save\-State}!k\-Timeout\-Field\-Number@{k\-Timeout\-Field\-Number}}
+\index{k\-Timeout\-Field\-Number@{k\-Timeout\-Field\-Number}!SaveState@{Save\-State}}
+\subsubsection[{k\-Timeout\-Field\-Number}]{\setlength{\rightskip}{0pt plus 5cm}const int Save\-State\-::k\-Timeout\-Field\-Number = 6\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a076c51325563ffdfdf35a02b947a88a7}
+\hypertarget{class_save_state_aaa0caf19183208fb4c02c01a245e3793}{\index{Save\-State@{Save\-State}!k\-Time\-Taken\-Field\-Number@{k\-Time\-Taken\-Field\-Number}}
+\index{k\-Time\-Taken\-Field\-Number@{k\-Time\-Taken\-Field\-Number}!SaveState@{Save\-State}}
+\subsubsection[{k\-Time\-Taken\-Field\-Number}]{\setlength{\rightskip}{0pt plus 5cm}const int Save\-State\-::k\-Time\-Taken\-Field\-Number = 4\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_aaa0caf19183208fb4c02c01a245e3793}
+\hypertarget{class_save_state_aa4c464e8a710304b588306149aeeba68}{\index{Save\-State@{Save\-State}!k\-Yellow\-Penalty\-Goals\-Field\-Number@{k\-Yellow\-Penalty\-Goals\-Field\-Number}}
+\index{k\-Yellow\-Penalty\-Goals\-Field\-Number@{k\-Yellow\-Penalty\-Goals\-Field\-Number}!SaveState@{Save\-State}}
+\subsubsection[{k\-Yellow\-Penalty\-Goals\-Field\-Number}]{\setlength{\rightskip}{0pt plus 5cm}const int Save\-State\-::k\-Yellow\-Penalty\-Goals\-Field\-Number = 2\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_aa4c464e8a710304b588306149aeeba68}
+\hypertarget{class_save_state_a76a00bd36df002f12b227f2cc67378f0}{\index{Save\-State@{Save\-State}!Team\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E@{Team\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E}}
+\index{Team\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E@{Team\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E}!SaveState@{Save\-State}}
+\subsubsection[{Team\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}const int Save\-State\-::\-Team\-\_\-\-A\-R\-R\-A\-Y\-S\-I\-Z\-E\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a76a00bd36df002f12b227f2cc67378f0}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+    \hyperlink{savestate_8pb_8h_ac9559575096dcdd829a198e7bd7805b9}{SaveState\_Team\_Team\_ARRAYSIZE}
+\end{DoxyCode}
+\hypertarget{class_save_state_adf1b7a39d63e6e33f3b6d72991c9830a}{\index{Save\-State@{Save\-State}!T\-E\-A\-M\-\_\-\-B\-L\-U\-E@{T\-E\-A\-M\-\_\-\-B\-L\-U\-E}}
+\index{T\-E\-A\-M\-\_\-\-B\-L\-U\-E@{T\-E\-A\-M\-\_\-\-B\-L\-U\-E}!SaveState@{Save\-State}}
+\subsubsection[{T\-E\-A\-M\-\_\-\-B\-L\-U\-E}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State\-\_\-\-Team} Save\-State\-::\-T\-E\-A\-M\-\_\-\-B\-L\-U\-E = {\bf Save\-State\-\_\-\-Team\-\_\-\-T\-E\-A\-M\-\_\-\-B\-L\-U\-E}\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_adf1b7a39d63e6e33f3b6d72991c9830a}
+\hypertarget{class_save_state_a62f9cfc066b2ab0c830f2bff1a80164a}{\index{Save\-State@{Save\-State}!Team\-\_\-\-M\-A\-X@{Team\-\_\-\-M\-A\-X}}
+\index{Team\-\_\-\-M\-A\-X@{Team\-\_\-\-M\-A\-X}!SaveState@{Save\-State}}
+\subsubsection[{Team\-\_\-\-M\-A\-X}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State\-\_\-\-Team} Save\-State\-::\-Team\-\_\-\-M\-A\-X\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a62f9cfc066b2ab0c830f2bff1a80164a}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+    \hyperlink{savestate_8pb_8h_a39388958e0de6fe69060da0cf8067df3}{SaveState\_Team\_Team\_MAX}
+\end{DoxyCode}
+\hypertarget{class_save_state_a00a41fbb76076221a5f8fb005a783c98}{\index{Save\-State@{Save\-State}!Team\-\_\-\-M\-I\-N@{Team\-\_\-\-M\-I\-N}}
+\index{Team\-\_\-\-M\-I\-N@{Team\-\_\-\-M\-I\-N}!SaveState@{Save\-State}}
+\subsubsection[{Team\-\_\-\-M\-I\-N}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State\-\_\-\-Team} Save\-State\-::\-Team\-\_\-\-M\-I\-N\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a00a41fbb76076221a5f8fb005a783c98}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+    \hyperlink{savestate_8pb_8h_a49db9a7c5b207b4e5d24e034752c57eb}{SaveState\_Team\_Team\_MIN}
+\end{DoxyCode}
+\hypertarget{class_save_state_a72558d895179b05de4d72e793aa61d4b}{\index{Save\-State@{Save\-State}!T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W@{T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W}}
+\index{T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W@{T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W}!SaveState@{Save\-State}}
+\subsubsection[{T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf Save\-State\-\_\-\-Team} Save\-State\-::\-T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W = {\bf Save\-State\-\_\-\-Team\-\_\-\-T\-E\-A\-M\-\_\-\-Y\-E\-L\-L\-O\-W}\hspace{0.3cm}{\ttfamily [static]}}}\label{class_save_state_a72558d895179b05de4d72e793aa61d4b}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+3rdparty/sllreferee/\hyperlink{savestate_8pb_8h}{savestate.\-pb.\-h}\item 
+3rdparty/sllreferee/\hyperlink{savestate_8pb_8cc}{savestate.\-pb.\-cc}\end{DoxyCompactItemize}

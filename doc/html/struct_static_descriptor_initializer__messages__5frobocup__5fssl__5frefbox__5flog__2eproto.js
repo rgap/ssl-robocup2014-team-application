@@ -1,0 +1,4 @@
+var struct_static_descriptor_initializer__messages__5frobocup__5fssl__5frefbox__5flog__2eproto =
+[
+    [ "StaticDescriptorInitializer_messages_5frobocup_5fssl_5frefbox_5flog_2eproto", "struct_static_descriptor_initializer__messages__5frobocup__5fssl__5frefbox__5flog__2eproto.html#a5e237328736f9eebff8e2dccfb2847f0", null ]
+];

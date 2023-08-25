@@ -1,0 +1,4 @@
+var struct_static_descriptor_initializer__messages__5frobocup__5fssl__5fgeometry__2eproto =
+[
+    [ "StaticDescriptorInitializer_messages_5frobocup_5fssl_5fgeometry_2eproto", "struct_static_descriptor_initializer__messages__5frobocup__5fssl__5fgeometry__2eproto.html#a3a2287d0cbfed58d9e36878b1158d014", null ]
+];

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UDPGameControlDialog</class>
+ <widget class="QDialog" name="UDPGameControlDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>301</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Port</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Simulator</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>80</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>20011</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Referee</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>50</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>127.0.0.1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>80</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Port</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>50</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IP</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>50</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>210</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enable Planning</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Game Control</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>250</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stop All Agents</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>401</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>UDPGameControlDialog</receiver>
+   <slot>actionConnect()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>119</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>150</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>UDPGameControlDialog</receiver>
+   <slot>actionSend()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>84</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>325</x>
+     <y>120</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>UDPGameControlDialog</receiver>
+   <slot>actionEnablePlanning()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>100</x>
+     <y>263</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>UDPGameControlDialog</receiver>
+   <slot>actionStopAllAgents()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>225</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>280</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>actionConnect()</slot>
+  <slot>actionSend()</slot>
+  <slot>actionEnablePlanning()</slot>
+  <slot>actionStopAllAgents()</slot>
+ </slots>
+</ui>
